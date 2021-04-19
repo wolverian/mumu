@@ -84,7 +84,7 @@
 
   :profiles {:dev {:repl-options {:init-ns mumu.repl}
                    :dependencies [[cider/piggieback "0.5.2"]
-                                  [binaryage/devtools "1.0.2"]
+                                  [binaryage/devtools "1.0.3"]
                                   [ring/ring-mock "0.4.0"]
                                   [ring/ring-devel "1.9.1"]
                                   [prone "2020-01-17"]
