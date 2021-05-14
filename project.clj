@@ -90,7 +90,7 @@
                                   [prone "2020-01-17"]
                                   [figwheel-sidecar "0.5.20"]
                                   [nrepl "0.8.3"]
-                                  [thheller/shadow-cljs "2.12.5"]
+                                  [thheller/shadow-cljs "2.13.0"]
                                   [pjstadig/humane-test-output "0.11.0"]]
                                   
 
