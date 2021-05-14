@@ -91,7 +91,7 @@
                                   [figwheel-sidecar "0.5.20"]
                                   [nrepl "0.8.3"]
                                   [thheller/shadow-cljs "2.12.5"]
-                                  [pjstadig/humane-test-output "0.10.0"]]
+                                  [pjstadig/humane-test-output "0.11.0"]]
                                   
 
 
