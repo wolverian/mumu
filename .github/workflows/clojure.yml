@@ -17,14 +17,3 @@ jobs:
       run: lein deps
     - name: Run tests
       run: lein test
-
-  deps:
-    runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' }}
-    steps:
-      - uses: actions/checkout@v2
-      - name: Check deps
-        uses: nnichols/leiningen-dependency-update-action@v1
-        with:
-          github-token: ${{ secrets.github_token }}
-          branch: main
